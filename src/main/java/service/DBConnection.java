@@ -17,5 +17,8 @@ public class DBConnection {
 
     public static PreparedStatement getPreparedStatement(String sql) throws SQLException {
         return getConnection().prepareStatement(sql);
+
+
+
     }
 }
